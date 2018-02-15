@@ -2,261 +2,261 @@
     "people": [
         {
             "name": "Adam",
-            "id": "1",
+            "id": 1,
             "comments": [
-                "Default comment."
+                "Exercise? You da man."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Belma",
-            "id": "1",
+            "id": 2,
             "comments": [
-                "Default comment."
+                "Nelson is awesome"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Catherine",
-            "id": "1",
+            "id": 3,
             "comments": [
-                "Default comment."
+                "Get well soon!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Elyse",
-            "id": "1",
+            "id": 4,
             "comments": [
-                "Default comment."
+                "Cool, calm and collected."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Emily",
-            "id": "1",
+            "id": 5,
             "comments": [
-                "Default comment."
+                "Fantastic earrings."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Ethan",
-            "id": "1",
+            "id": 6,
             "comments": [
-                "Default comment."
+                "Amazing attendance."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Don",
-            "id": "1",
+            "id": 7,
             "comments": [
-                "Default comment."
+                "Coolest teacher ever!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": true
         },
         {
             "name": "Judy",
-            "id": "1",
+            "id": 8,
             "comments": [
-                "Default comment."
+                "Compliments to the chef"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Julia",
-            "id": "1",
+            "id": 9,
             "comments": [
-                "Default comment."
+                "Your kindness is out of this world."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Kimmi",
-            "id": "1",
+            "id": 10,
             "comments": [
-                "Default comment."
+                "Wonderfully creative person."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Maddie",
-            "id": "1",
+            "id": 11,
             "comments": [
-                "Default comment."
+                "Coke and chocolate...what more do you need?"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Naeri",
-            "id": "1",
+            "id": 12,
             "comments": [
-                "Default comment."
+                "Always available when we need help."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": true
         },
         {
             "name": "Paul",
-            "id": "1",
+            "id": 13,
             "comments": [
-                "Default comment."
+                "An amazingly supportive person."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Peter",
-            "id": "1",
+            "id": 14,
             "comments": [
-                "Default comment."
+                "Whangarei is awesome!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Steve",
-            "id": "1",
+            "id": 15,
             "comments": [
-                "Default comment."
+                "Happy New Year!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Stina",
-            "id": "1",
+            "id": 16,
             "comments": [
-                "Default comment."
+                "Superb knowledge of body art!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Tian",
-            "id": "1",
+            "id": 17,
             "comments": [
-                "Default comment."
+                "Friendly, kind and generally just amazing."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Tony",
-            "id": "1",
+            "id": 18,
             "comments": [
-                "Default comment."
+                "Cool supporter and helper."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": true
         },
         {
             "name": "Tim",
-            "id": "1",
+            "id": 19,
             "comments": [
-                "Default comment."
+                "Coffee king!"
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         },
         {
             "name": "Tyler",
-            "id": "1",
+            "id": 20,
             "comments": [
-                "Default comment."
+                "Amazing hort knowledge."
             ],
             "emojis": {
                 "smile": 0,
                 "heart": 0,
-                "poop": 0
+                "star": 0
             },
             "isTeacher": false
         }
