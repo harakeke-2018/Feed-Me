@@ -1,12 +1,14 @@
 import React from 'react'
 import SelectedProfile from './SelectedProfile'
 import UserList from './UserList'
+import request from 'superagent'
 
 class MainPage extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      currentUser: { name: 'Ethan', comments: ['Test comment', 'Hello', 'Another Comment'] }
+      people: [],
+      currentUser: {}
     }
     this.updateCurrentUser = this.updateCurrentUser.bind(this)
   }
@@ -14,18 +16,24 @@ class MainPage extends React.Component {
   updateCurrentUser (passedPerson) {
     this.setState(
       {
-        currentUser: {
-          name: passedPerson,
-          comments: ['Test', 'Test 1', 'Test 2']}
+        currentUser: passedPerson
       }
     )
+  }
+
+  componentWillMount () {
+    request
+      .get('http://localhost:3000/api/v1/feedme/getdata')
+      .then(res => {
+        this.setState({people: res.body.people, currentUser: res.body.people[0]})
+      })
   }
 
   render () {
     return (
       <div>
-        <SelectedProfile user={this.state.currentUser} />
-        <UserList updateCurrentUser={this.updateCurrentUser} />
+        {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} /> : null}
+        {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
       </div>
     )
   }
