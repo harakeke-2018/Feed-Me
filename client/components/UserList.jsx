@@ -11,17 +11,18 @@ class UserList extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className='peopleGallery'>
         {this.state.emptyObjects.map((content, id) => {
-          return <Link key={id} to={content.name}>
-            <img src="http://geniussys.com/img/placeholder/blogpost-placeholder-100x100.png" />
-          </Link>
+          return (
+            <Link key={id} to={content.name} replace >
+              <img className='profileImageGallery' src={`images/${content.name}.jpg`} />
+              <h5>{content.name}</h5>
+            </Link>
+          )
         })}
       </div>
     )
-
   }
-
 }
 
 export default UserList

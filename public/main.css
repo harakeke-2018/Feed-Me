@@ -16,6 +16,10 @@
   flex-direction: column;
 }
 
+.peopleGallery {
+  display: flex
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
