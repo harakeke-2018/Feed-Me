@@ -1,18 +1,10 @@
 import React from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
-import SelectedProfile from './SelectedProfile'
-import UserList from './UserList'
+import MainPage from './MainPage'
 
 const App = () => (
-  <Router>
-    <div className='app'>
-      <Route exact path='/' component={SelectedProfile} />
-      <Route path='/:id' component={SelectedProfile} />
-      {/* <SelectedProfile /> */}
-      {/* <ErrorMessage /> */}
-      <UserList />
-    </div>
-  </Router>
+  <div className='app'>
+    <MainPage />
+  </div>
 )
 
 export default App

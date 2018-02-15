@@ -17,7 +17,14 @@
 }
 
 .peopleGallery {
-  display: flex
+  display: flex;
+  text-align: center;
+}
+
+.profileImageGallery {
+  height: 120px;
+  width: 120px;
+  margin: 12px;
 }
 
 body {
