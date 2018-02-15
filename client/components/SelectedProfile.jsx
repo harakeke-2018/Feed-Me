@@ -1,7 +1,7 @@
 import React from 'react'
 
 class SelectedProfile extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
       currentUser: { name: 'Ethan', comments: ['Test comment', 'Hello', 'Another Comment'] }
@@ -20,7 +20,6 @@ class SelectedProfile extends React.Component {
   }
 
   componentWillReceiveProps (nextProps) {
-    console.log(nextProps)
     if (nextProps.match.params.id) {
       this.setState(
         {
@@ -31,13 +30,12 @@ class SelectedProfile extends React.Component {
         }
       )
     }
-    
   }
 
-  render() {
+  render () {
     return (
       <div id='selectedUser'>
-        <img src='http://geniussys.com/img/placeholder/blogpost-placeholder-100x100.png' id='mainProfile'></img>
+        <img src={`images/${this.state.currentUser.name}.jpg`} id='mainProfile'></img>
         <h2>{this.state.currentUser.name}</h2>
         <ul>
           {this.state.currentUser.comments.map((user, id) => {
