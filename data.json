@@ -1,0 +1,264 @@
+{
+    "people": [
+        {
+            "name": "Adam",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Belma",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Catherine",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Elyse",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Emily",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Ethan",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Don",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": true
+        },
+        {
+            "name": "Judy",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Julia",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Kimmi",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Maddie",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Naeri",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": true
+        },
+        {
+            "name": "Paul",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Peter",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Steve",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Stina",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Tian",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Tony",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": true
+        },
+        {
+            "name": "Tim",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        },
+        {
+            "name": "Tyler",
+            "id": "1",
+            "comments": [
+                "Default comment."
+            ],
+            "emojis": {
+                "smile": 0,
+                "heart": 0,
+                "poop": 0
+            },
+            "isTeacher": false
+        }
+    ]
+}
