@@ -2,3 +2,20 @@
   color: red;
   font-weight: bold;
 }
+
+#mainProfile {
+  width: 200px;
+  height: 200px;
+}
+
+#selectedUser {
+  display:flex;
+}
+
+.commentList {
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
