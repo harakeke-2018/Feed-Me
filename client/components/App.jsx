@@ -1,17 +1,18 @@
 import React from 'react'
-
-import ErrorMessage from './ErrorMessage'
-import LoadSubreddit from './LoadSubreddit'
-import SubredditList from './SubredditList'
-import WaitIndicator from './WaitIndicator'
+import { HashRouter as Router, Route } from 'react-router-dom'
+import SelectedProfile from './SelectedProfile'
+import UserList from './UserList'
 
 const App = () => (
-  <div className='app'>
-    <ErrorMessage />
-    <LoadSubreddit />
-    <WaitIndicator />
-    <SubredditList />
-  </div>
+  <Router>
+    <div className='app'>
+      <Route exact path='/' component={SelectedProfile} />
+      <Route path='/:id' component={SelectedProfile} />
+      {/* <SelectedProfile /> */}
+      {/* <ErrorMessage /> */}
+      <UserList />
+    </div>
+  </Router>
 )
 
 export default App
