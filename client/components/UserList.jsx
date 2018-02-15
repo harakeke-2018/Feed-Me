@@ -11,9 +11,9 @@ class UserList extends React.Component {
   render () {
     return (
       <div className='peopleGallery'>
-        {this.state.emptyObjects.map((content, id) => {
+        {this.props.userList.map((content, id) => {
           return (
-            <div key={id} onClick={() => this.props.updateCurrentUser(content.name)}>
+            <div key={id} onClick={() => this.props.updateCurrentUser(content)}>
               <img className='profileImageGallery' src={`images/${content.name}.jpg`} />
               <h5 >{content.name}</h5>
             </div>
