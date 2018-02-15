@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 class UserList extends React.Component {
   constructor (props) {
@@ -14,10 +13,10 @@ class UserList extends React.Component {
       <div className='peopleGallery'>
         {this.state.emptyObjects.map((content, id) => {
           return (
-            <Link key={id} to={content.name} replace >
+            <div key={id} onClick={() => this.props.updateCurrentUser(content.name)}>
               <img className='profileImageGallery' src={`images/${content.name}.jpg`} />
-              <h5>{content.name}</h5>
-            </Link>
+              <h5 >{content.name}</h5>
+            </div>
           )
         })}
       </div>
