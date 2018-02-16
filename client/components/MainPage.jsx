@@ -56,7 +56,7 @@ class MainPage extends React.Component {
           <img src='images/feed me.png' width='400' height='400' />
 
           <div className='title'>
-            <p>Welcome to Feed Me! A space where you can anonoymously give other members of your cohort feedback.</p>
+            <p>Welcome to Feed Me! A space where you can anonymously give other members of your cohort feedback.</p>
           </div>
 
           <div className='col'>
