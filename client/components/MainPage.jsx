@@ -8,9 +8,12 @@ class MainPage extends React.Component {
     super(props)
     this.state = {
       people: [],
-      currentUser: {}
+      currentUser: {},
+      refresh: false
     }
     this.updateCurrentUser = this.updateCurrentUser.bind(this)
+    this.getUserData = this.getUserData.bind(this)
+    this.refreshView = this.refreshView.bind(this)
   }
 
   updateCurrentUser (passedPerson) {
@@ -21,7 +24,11 @@ class MainPage extends React.Component {
     )
   }
 
-  componentWillMount () {
+  refreshView () {
+    this.getUserData()
+  }
+
+  getUserData () {
     request
       .get('http://localhost:3000/api/v1/feedme/getdata')
       .then(res => {
@@ -29,10 +36,14 @@ class MainPage extends React.Component {
       })
   }
 
+  componentWillMount () {
+    this.getUserData()
+  }
+
   render () {
     return (
       <div>
-        {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} /> : null}
+        {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} refreshMainPage={this.refreshView} /> : null}
         {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
       </div>
     )
