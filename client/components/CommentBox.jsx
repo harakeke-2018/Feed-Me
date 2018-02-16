@@ -26,7 +26,7 @@ class CommentBox extends React.Component {
         emoji: this.state.emoji
       })
       .then(res => {
-        this.props.refreshMainPage()
+        this.props.refreshMainPage(this.props.user)
       })
   }
 
