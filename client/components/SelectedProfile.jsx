@@ -9,6 +9,7 @@ class SelectedProfile extends React.Component {
 
   render () {
     return (
+      <div className='selectedUser'>
       <div id='selectedUser'>
         <img src={`images/${this.props.user.name}.jpg`} id='mainProfile'></img>
         <h2>{this.props.user.name}</h2>
@@ -17,6 +18,7 @@ class SelectedProfile extends React.Component {
             return <li key={id} className="commentList">{user}</li>
           })}
         </ul>
+      </div>
       </div>
     )
   }

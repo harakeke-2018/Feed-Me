@@ -32,9 +32,31 @@ class MainPage extends React.Component {
   render () {
     return (
       <div>
-        {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} /> : null}
-        {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
+       
+        <div className='header'>
+          <img src='images/feed me.png' width='400' height='400' />
+
+          <div className='title'>
+            <p>Welcome to Feed Me! A space where you can anonoymously give other members of your cohort feedback.</p>
+          </div>  
+
+          <div className='col'>
+              {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} /> : null}
+            </div>
+          
+        </div>
+        <div className='container'> 
+          
+
+            
+
+            <div className='col'>
+              {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
+            </div>
+
+        </div>
       </div>
+
     )
   }
 }

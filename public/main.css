@@ -10,6 +10,7 @@
 
 #selectedUser {
   display:flex;
+  flex-direction: column;
 }
 
 .commentList {
@@ -19,6 +20,9 @@
 .peopleGallery {
   display: flex;
   text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 .profileImageGallery {
@@ -28,5 +32,62 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Chelsea Market', cursive;
+  animation: colorchange 1.5s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 40s infinite;
+}
+  @keyframes colorchange
+  {
+    0%   {background: rgb(203, 209, 209);}
+    25%  {background: rgb(36, 93, 158);}
+    50%  {background: rgb(88, 50, 177);}
+    75%  {background: rgb(86, 161, 169);}
+    100% {background: rgb(208, 218, 224);}
+  }
+
+ @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+ {
+  0%   {background: rgb(203, 209, 209);}
+  25%  {background: rgb(36, 93, 158);}
+  50%  {background: rgb(88, 50, 177);}
+  75%  {background: rgb(86, 161, 169);}
+  100% {background: rgb(181, 195, 202);}
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.col {
+  justify-content: right;
+  flex-direction: row;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  
+
+}
+
+.header {
+  flex-direction: row;
+  display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    background: #49691ec7;
+    color: white;
+    height: 300px;
+    width: 170px;
+    border-radius: 20%;
+    padding: 30px;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
