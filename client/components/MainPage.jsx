@@ -24,15 +24,24 @@ class MainPage extends React.Component {
     )
   }
 
-  refreshView () {
-    this.getUserData()
+  refreshView (person) {
+    this.getUserData(person)
   }
 
-  getUserData () {
+  getUserData (person) {
     request
       .get('http://localhost:3000/api/v1/feedme/getdata')
       .then(res => {
-        this.setState({people: res.body.people, currentUser: res.body.people[0]})
+        let newCurrentUser
+        if (person) {
+          newCurrentUser = res.body.people.find((item) => {
+            return item.id === person.id
+          })
+        } else {
+          newCurrentUser = res.body.people[0]
+        }
+        this.setState({ people: res.body.people,
+          currentUser: newCurrentUser })
       })
   }
 
@@ -42,27 +51,23 @@ class MainPage extends React.Component {
 
   render () {
     return (
-      <div>       
+      <div>
         <div className='header'>
           <img src='images/feed me.png' width='400' height='400' />
 
           <div className='title'>
             <p>Welcome to Feed Me! A space where you can anonoymously give other members of your cohort feedback.</p>
-          </div>  
+          </div>
 
           <div className='col'>
-              {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} /> : null}
-            </div>
-          
+            {this.state.people[0] ? <SelectedProfile user={this.state.currentUser} refreshMainPage={this.refreshView} /> : null}
+          </div>
+
         </div>
-        <div className='container'> 
-          
-
-            
-
-            <div className='col'>
-              {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
-            </div>
+        <div className='container'>
+          <div className='col'>
+            {this.state.people[0] ? <UserList userList={this.state.people} updateCurrentUser={this.updateCurrentUser} /> : null}
+          </div>
 
         </div>
       </div>
